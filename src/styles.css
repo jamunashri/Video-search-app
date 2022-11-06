@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+}
+.videoContainer {
+  width: 100%;
+}
